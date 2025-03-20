@@ -1,0 +1,5 @@
+# ninja log v6
+15	3618	7641605095535822	CMakeFiles/test.dir/target_del_vlaue.cpp.obj	a4090e98093c55f5
+3520	3977	7641615240736257	target_del.cp313-win_amd64.pyd	fbad184070a66823
+9	3524	7641606466054795	CMakeFiles/test_target_del_vlaue.dir/target_del_vlaue.cpp.obj	10fc1ecdd252533f
+16	3520	7641615205695349	CMakeFiles/target_del.dir/target_del_vlaue.cpp.obj	41b889a089f8857c

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "extern/pybind11-2.13.6/pybind11-2.13.6",
+		"source" : "extern/pybind11-2.13.6/pybind11-2.13.6"
+	}
+}

@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/19513/Desktop/pybind11/build",
+  "command": "D:\\SDK\\w64devkit\\bin\\g++.exe -Dtarget_del_EXPORTS -isystem C:/Users/19513/Desktop/pybind11/extern/pybind11-2.13.6/pybind11-2.13.6/include -isystem C:/Users/19513/AppData/Local/Programs/Python/Python313/Include -g -fvisibility=hidden -o CMakeFiles\\target_del.dir\\target_del_vlaue.cpp.obj -c C:\\Users\\19513\\Desktop\\pybind11\\target_del_vlaue.cpp",
+  "file": "C:\\Users\\19513\\Desktop\\pybind11\\target_del_vlaue.cpp",
+  "output": "CMakeFiles\\target_del.dir\\target_del_vlaue.cpp.obj"
+}
+]
