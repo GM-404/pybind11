@@ -41,39 +41,144 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/19513/Desktop/pybind11/build/
 # =============================================================================
-# Object build statements for MODULE_LIBRARY target target_del
+# Object build statements for MODULE_LIBRARY target example
 
 
 #############################################
-# Order-only phony target for target_del
+# Order-only phony target for example
 
-build cmake_object_order_depends_target_target_del: phony || .
+build cmake_object_order_depends_target_example: phony || .
 
-build CMakeFiles/target_del.dir/target_del_vlaue.cpp.obj: CXX_COMPILER__target_del_unscanned_Debug C$:/Users/19513/Desktop/pybind11/target_del_vlaue.cpp || cmake_object_order_depends_target_target_del
-  DEFINES = -Dtarget_del_EXPORTS
-  DEP_FILE = CMakeFiles\target_del.dir\target_del_vlaue.cpp.obj.d
+build CMakeFiles/example.dir/example.cpp.obj: CXX_COMPILER__example_unscanned_Debug C$:/Users/19513/Desktop/pybind11/example.cpp || cmake_object_order_depends_target_example
+  DEFINES = -Dexample_EXPORTS
+  DEP_FILE = CMakeFiles\example.dir\example.cpp.obj.d
   FLAGS = -g -fvisibility=hidden
   INCLUDES = -isystem C:/Users/19513/Desktop/pybind11/extern/pybind11-2.13.6/pybind11-2.13.6/include -isystem C:/Users/19513/AppData/Local/Programs/Python/Python313/Include
-  OBJECT_DIR = CMakeFiles\target_del.dir
-  OBJECT_FILE_DIR = CMakeFiles\target_del.dir
+  OBJECT_DIR = CMakeFiles\example.dir
+  OBJECT_FILE_DIR = CMakeFiles\example.dir
 
 
 # =============================================================================
-# Link build statements for MODULE_LIBRARY target target_del
+# Link build statements for MODULE_LIBRARY target example
 
 
 #############################################
-# Link the shared module target_del.cp313-win_amd64.pyd
+# Link the shared module example.cp313-win_amd64.pyd
 
-build target_del.cp313-win_amd64.pyd: CXX_MODULE_LIBRARY_LINKER__target_del_Debug CMakeFiles/target_del.dir/target_del_vlaue.cpp.obj | C$:/Users/19513/AppData/Local/Programs/Python/Python313/libs/python313.lib
+build example.cp313-win_amd64.pyd: CXX_MODULE_LIBRARY_LINKER__example_Debug CMakeFiles/example.dir/example.cpp.obj | C$:/Users/19513/AppData/Local/Programs/Python/Python313/libs/python313.lib
   LANGUAGE_COMPILE_FLAGS = -g
   LINK_LIBRARIES = C:/Users/19513/AppData/Local/Programs/Python/Python313/libs/python313.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\target_del.dir
+  OBJECT_DIR = CMakeFiles\example.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = target_del.cp313-win_amd64.pyd
-  TARGET_IMPLIB = libtarget_del.dll.a
-  TARGET_PDB = target_del.cp313-win_amd64.pyd.dbg
+  TARGET_FILE = example.cp313-win_amd64.pyd
+  TARGET_IMPLIB = libexample.dll.a
+  TARGET_PDB = example.cp313-win_amd64.pyd.dbg
+
+# =============================================================================
+# Object build statements for MODULE_LIBRARY target bind_class
+
+
+#############################################
+# Order-only phony target for bind_class
+
+build cmake_object_order_depends_target_bind_class: phony || .
+
+build CMakeFiles/bind_class.dir/bind_class.cpp.obj: CXX_COMPILER__bind_class_unscanned_Debug C$:/Users/19513/Desktop/pybind11/bind_class.cpp || cmake_object_order_depends_target_bind_class
+  DEFINES = -Dbind_class_EXPORTS
+  DEP_FILE = CMakeFiles\bind_class.dir\bind_class.cpp.obj.d
+  FLAGS = -g -fvisibility=hidden
+  INCLUDES = -isystem C:/Users/19513/Desktop/pybind11/extern/pybind11-2.13.6/pybind11-2.13.6/include -isystem C:/Users/19513/AppData/Local/Programs/Python/Python313/Include
+  OBJECT_DIR = CMakeFiles\bind_class.dir
+  OBJECT_FILE_DIR = CMakeFiles\bind_class.dir
+
+
+# =============================================================================
+# Link build statements for MODULE_LIBRARY target bind_class
+
+
+#############################################
+# Link the shared module bind_class.cp313-win_amd64.pyd
+
+build bind_class.cp313-win_amd64.pyd: CXX_MODULE_LIBRARY_LINKER__bind_class_Debug CMakeFiles/bind_class.dir/bind_class.cpp.obj | C$:/Users/19513/AppData/Local/Programs/Python/Python313/libs/python313.lib
+  LANGUAGE_COMPILE_FLAGS = -g
+  LINK_LIBRARIES = C:/Users/19513/AppData/Local/Programs/Python/Python313/libs/python313.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\bind_class.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = bind_class.cp313-win_amd64.pyd
+  TARGET_IMPLIB = libbind_class.dll.a
+  TARGET_PDB = bind_class.cp313-win_amd64.pyd.dbg
+
+# =============================================================================
+# Object build statements for MODULE_LIBRARY target tar_del
+
+
+#############################################
+# Order-only phony target for tar_del
+
+build cmake_object_order_depends_target_tar_del: phony || .
+
+build CMakeFiles/tar_del.dir/tar_del.cpp.obj: CXX_COMPILER__tar_del_unscanned_Debug C$:/Users/19513/Desktop/pybind11/tar_del.cpp || cmake_object_order_depends_target_tar_del
+  DEFINES = -Dtar_del_EXPORTS
+  DEP_FILE = CMakeFiles\tar_del.dir\tar_del.cpp.obj.d
+  FLAGS = -g -fvisibility=hidden
+  INCLUDES = -isystem C:/Users/19513/Desktop/pybind11/extern/pybind11-2.13.6/pybind11-2.13.6/include -isystem C:/Users/19513/AppData/Local/Programs/Python/Python313/Include
+  OBJECT_DIR = CMakeFiles\tar_del.dir
+  OBJECT_FILE_DIR = CMakeFiles\tar_del.dir
+
+
+# =============================================================================
+# Link build statements for MODULE_LIBRARY target tar_del
+
+
+#############################################
+# Link the shared module tar_del.cp313-win_amd64.pyd
+
+build tar_del.cp313-win_amd64.pyd: CXX_MODULE_LIBRARY_LINKER__tar_del_Debug CMakeFiles/tar_del.dir/tar_del.cpp.obj | C$:/Users/19513/AppData/Local/Programs/Python/Python313/libs/python313.lib
+  LANGUAGE_COMPILE_FLAGS = -g
+  LINK_LIBRARIES = C:/Users/19513/AppData/Local/Programs/Python/Python313/libs/python313.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\tar_del.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = tar_del.cp313-win_amd64.pyd
+  TARGET_IMPLIB = libtar_del.dll.a
+  TARGET_PDB = tar_del.cp313-win_amd64.pyd.dbg
+
+# =============================================================================
+# Object build statements for MODULE_LIBRARY target tar_cre
+
+
+#############################################
+# Order-only phony target for tar_cre
+
+build cmake_object_order_depends_target_tar_cre: phony || .
+
+build CMakeFiles/tar_cre.dir/tar_cre.cpp.obj: CXX_COMPILER__tar_cre_unscanned_Debug C$:/Users/19513/Desktop/pybind11/tar_cre.cpp || cmake_object_order_depends_target_tar_cre
+  DEFINES = -Dtar_cre_EXPORTS
+  DEP_FILE = CMakeFiles\tar_cre.dir\tar_cre.cpp.obj.d
+  FLAGS = -g -fvisibility=hidden
+  INCLUDES = -isystem C:/Users/19513/Desktop/pybind11/extern/pybind11-2.13.6/pybind11-2.13.6/include -isystem C:/Users/19513/AppData/Local/Programs/Python/Python313/Include
+  OBJECT_DIR = CMakeFiles\tar_cre.dir
+  OBJECT_FILE_DIR = CMakeFiles\tar_cre.dir
+
+
+# =============================================================================
+# Link build statements for MODULE_LIBRARY target tar_cre
+
+
+#############################################
+# Link the shared module tar_cre.cp313-win_amd64.pyd
+
+build tar_cre.cp313-win_amd64.pyd: CXX_MODULE_LIBRARY_LINKER__tar_cre_Debug CMakeFiles/tar_cre.dir/tar_cre.cpp.obj | C$:/Users/19513/AppData/Local/Programs/Python/Python313/libs/python313.lib
+  LANGUAGE_COMPILE_FLAGS = -g
+  LINK_LIBRARIES = C:/Users/19513/AppData/Local/Programs/Python/Python313/libs/python313.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\tar_cre.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = tar_cre.cp313-win_amd64.pyd
+  TARGET_IMPLIB = libtar_cre.dll.a
+  TARGET_PDB = tar_cre.cp313-win_amd64.pyd.dbg
 
 
 #############################################
@@ -131,7 +236,13 @@ build extern/pybind11-2.13.6/pybind11-2.13.6/rebuild_cache: phony extern/pybind1
 # =============================================================================
 # Target aliases.
 
-build target_del: phony target_del.cp313-win_amd64.pyd
+build bind_class: phony bind_class.cp313-win_amd64.pyd
+
+build example: phony example.cp313-win_amd64.pyd
+
+build tar_cre: phony tar_cre.cp313-win_amd64.pyd
+
+build tar_del: phony tar_del.cp313-win_amd64.pyd
 
 # =============================================================================
 # Folder targets.
@@ -141,7 +252,7 @@ build target_del: phony target_del.cp313-win_amd64.pyd
 #############################################
 # Folder: C:/Users/19513/Desktop/pybind11/build
 
-build all: phony target_del.cp313-win_amd64.pyd extern/pybind11-2.13.6/pybind11-2.13.6/all
+build all: phony example.cp313-win_amd64.pyd bind_class.cp313-win_amd64.pyd tar_del.cp313-win_amd64.pyd tar_cre.cp313-win_amd64.pyd extern/pybind11-2.13.6/pybind11-2.13.6/all
 
 # =============================================================================
 

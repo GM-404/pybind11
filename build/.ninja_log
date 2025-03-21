@@ -1,5 +1,20 @@
 # ninja log v6
 15	3618	7641605095535822	CMakeFiles/test.dir/target_del_vlaue.cpp.obj	a4090e98093c55f5
-3520	3977	7641615240736257	target_del.cp313-win_amd64.pyd	fbad184070a66823
 9	3524	7641606466054795	CMakeFiles/test_target_del_vlaue.dir/target_del_vlaue.cpp.obj	10fc1ecdd252533f
-16	3520	7641615205695349	CMakeFiles/target_del.dir/target_del_vlaue.cpp.obj	41b889a089f8857c
+15	4350	7641759005130253	CMakeFiles/bind_class.dir/bind_class.cpp.obj	6d9d776e6d85e336
+5	4044	7641657491129530	CMakeFiles/target_del.dir/target_del_vlaue.cpp.obj	41b889a089f8857c
+4	4183	7641748849393910	CMakeFiles/target_del.dir/example.cpp.obj	64746ec149eaa30f
+16	4040	7641755085285536	CMakeFiles/example.dir/example.cpp.obj	75464d559e12cae4
+4350	4595	7641759048481334	bind_class.cp313-win_amd64.pyd	ae61bda04bdc3d0b
+4041	4564	7641755125538335	example.cp313-win_amd64.pyd	f2d6bed3b05dafc5
+39	5795	7641788507055397	CMakeFiles/target_del.dir/tar_del.cpp.obj	3bac48d0c8c07e62
+5	4540	7642456836988797	CMakeFiles/tar_del.dir/tar_del.cpp.obj	19c259e3980de3e6
+4541	4924	7642456882344873	tar_del.cp313-win_amd64.pyd	4a2a434d96067f99
+17	4372	7642467478619330	CMakeFiles/tar_del.dir/tar_del.cpp.obj	19c259e3980de3e6
+4372	4734	7642467522166684	tar_del.cp313-win_amd64.pyd	4a2a434d96067f99
+14	4464	7642467582721451	CMakeFiles/tar_cre.dir/tar_cre.cpp.obj	42d85ba292587e4b
+4464	4717	7642467627214661	tar_cre.cp313-win_amd64.pyd	8c6baa21377e95ef
+15	4444	7642469400154515	CMakeFiles/tar_cre.dir/tar_cre.cpp.obj	42d85ba292587e4b
+4445	4695	7642469444451639	tar_cre.cp313-win_amd64.pyd	8c6baa21377e95ef
+15	4515	7642469953862786	CMakeFiles/tar_cre.dir/tar_cre.cpp.obj	42d85ba292587e4b
+4516	4751	7642469998875737	tar_cre.cp313-win_amd64.pyd	8c6baa21377e95ef

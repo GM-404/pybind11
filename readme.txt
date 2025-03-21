@@ -1,0 +1,2 @@
+example.cpp为例子
+bind_class为第一个绑定的类
