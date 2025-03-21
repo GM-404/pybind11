@@ -180,6 +180,41 @@ build tar_cre.cp313-win_amd64.pyd: CXX_MODULE_LIBRARY_LINKER__tar_cre_Debug CMak
   TARGET_IMPLIB = libtar_cre.dll.a
   TARGET_PDB = tar_cre.cp313-win_amd64.pyd.dbg
 
+# =============================================================================
+# Object build statements for MODULE_LIBRARY target tar_mov
+
+
+#############################################
+# Order-only phony target for tar_mov
+
+build cmake_object_order_depends_target_tar_mov: phony || .
+
+build CMakeFiles/tar_mov.dir/tar_mov.cpp.obj: CXX_COMPILER__tar_mov_unscanned_Debug C$:/Users/19513/Desktop/pybind11/tar_mov.cpp || cmake_object_order_depends_target_tar_mov
+  DEFINES = -Dtar_mov_EXPORTS
+  DEP_FILE = CMakeFiles\tar_mov.dir\tar_mov.cpp.obj.d
+  FLAGS = -g -fvisibility=hidden
+  INCLUDES = -isystem C:/Users/19513/Desktop/pybind11/extern/pybind11-2.13.6/pybind11-2.13.6/include -isystem C:/Users/19513/AppData/Local/Programs/Python/Python313/Include
+  OBJECT_DIR = CMakeFiles\tar_mov.dir
+  OBJECT_FILE_DIR = CMakeFiles\tar_mov.dir
+
+
+# =============================================================================
+# Link build statements for MODULE_LIBRARY target tar_mov
+
+
+#############################################
+# Link the shared module tar_mov.cp313-win_amd64.pyd
+
+build tar_mov.cp313-win_amd64.pyd: CXX_MODULE_LIBRARY_LINKER__tar_mov_Debug CMakeFiles/tar_mov.dir/tar_mov.cpp.obj | C$:/Users/19513/AppData/Local/Programs/Python/Python313/libs/python313.lib
+  LANGUAGE_COMPILE_FLAGS = -g
+  LINK_LIBRARIES = C:/Users/19513/AppData/Local/Programs/Python/Python313/libs/python313.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\tar_mov.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = tar_mov.cp313-win_amd64.pyd
+  TARGET_IMPLIB = libtar_mov.dll.a
+  TARGET_PDB = tar_mov.cp313-win_amd64.pyd.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -244,6 +279,8 @@ build tar_cre: phony tar_cre.cp313-win_amd64.pyd
 
 build tar_del: phony tar_del.cp313-win_amd64.pyd
 
+build tar_mov: phony tar_mov.cp313-win_amd64.pyd
+
 # =============================================================================
 # Folder targets.
 
@@ -252,7 +289,7 @@ build tar_del: phony tar_del.cp313-win_amd64.pyd
 #############################################
 # Folder: C:/Users/19513/Desktop/pybind11/build
 
-build all: phony example.cp313-win_amd64.pyd bind_class.cp313-win_amd64.pyd tar_del.cp313-win_amd64.pyd tar_cre.cp313-win_amd64.pyd extern/pybind11-2.13.6/pybind11-2.13.6/all
+build all: phony example.cp313-win_amd64.pyd bind_class.cp313-win_amd64.pyd tar_del.cp313-win_amd64.pyd tar_cre.cp313-win_amd64.pyd tar_mov.cp313-win_amd64.pyd extern/pybind11-2.13.6/pybind11-2.13.6/all
 
 # =============================================================================
 
